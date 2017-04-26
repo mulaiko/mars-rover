@@ -17,6 +17,8 @@ Didn't focus on creating formatters for input, also bare bones implemenation
 run.rb file. Main focus was on structing the classes and relationships that make
 up the solution.
 
+Tests added to ensure code correctness.
+
 Assumptions made:
 
 - invalid input errors should be handled.
