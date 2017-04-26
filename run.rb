@@ -13,7 +13,6 @@ rescue MarsRoverError::Boundary => e
   exit
 end
 
-
 direction =  file[1].chomp.split(" ")[2]
 rover = Rover.new(coordinate, direction)
 rover.navigate(file[2].chomp)
