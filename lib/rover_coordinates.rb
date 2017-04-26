@@ -3,7 +3,7 @@ class RoverCoordinates
   attr_accessor :x_coordinate, :y_coordinate
 
   def initialize(x_coordinate, y_coordinate, zone)
-    @x_coordinate = x_coordinate
+   @x_coordinate = x_coordinate
     @y_coordinate = y_coordinate
     @zone = zone
     within_boundary?
