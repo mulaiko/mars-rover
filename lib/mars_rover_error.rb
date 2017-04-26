@@ -6,7 +6,7 @@ module MarsRoverError
 	end
 
 	class InvalidInput < StandardError
-		def message
+	  def message
 			"Error: An invalid data was entered." 
 		end
 	end
