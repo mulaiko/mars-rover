@@ -33,14 +33,17 @@ commands etc.
 Sample input/output:
 
 Imput:
-8 8
-8 8 W
-MMLMRMLMMMMMMRMMMMM
+ 8 8
+ 8 8 W
+ MMLMRMLMMMMMMRMMMMM
+
 Output: 
-0 1 W
+ 0 1 W
 
 Input:
-8 8
-0 1 E
-MMLMRMMMML
-Output: 6 2 N
+ 8 8
+ 0 1 E
+ MMLMRMMMML
+
+Output: 
+ 6 2 N
