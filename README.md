@@ -14,7 +14,7 @@ Also made use of a RoverCoordinates, Zone class to to handle coordinate related
 notions.
 
 Didn't focus on creating formatters for input, also bare bones implemenation
-run.rb file. Main focus was on structing the classes and relationships that make
+run.rb file. Main focus was on structuring the classes and relationships that make
 up the solution.
 
 Tests added to ensure code correctness.
