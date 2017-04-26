@@ -33,9 +33,9 @@ commands etc.
 Sample input/output:
 
 Imput:
- 8 8
- 8 8 W
- MMLMRMLMMMMMMRMMMMM
+8 8 
+8 8 W
+MMLMRMLMMMMMMRMMMMM
 
 Output: 
  0 1 W
