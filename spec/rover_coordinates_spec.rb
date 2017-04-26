@@ -16,15 +16,15 @@ describe RoverCoordinates do
       expect { subject.set_coordinates(north) }.to change{subject.y_coordinate}.from(2).to(3)
     end
 
-    it "increases the y coordinate when the current direction is south"do
+    it "decreates the y coordinate when the current direction is south"do
       expect { subject.set_coordinates(south) }.to change{subject.y_coordinate}.from(2).to(1)
     end
 
-    it "increases the y coordinate when the current direction is north"do
+    it "increases the x coordinate when the current direction is north"do
       expect { subject.set_coordinates(east) }.to change{subject.x_coordinate}.from(1).to(2)
     end
 
-    it "increases the y coordinate when the current direction is west"do
+    it "decreases the x coordinate when the current direction is west"do
       expect { subject.set_coordinates(west) }.to change{subject.x_coordinate}.from(1).to(0)
     end
   end
