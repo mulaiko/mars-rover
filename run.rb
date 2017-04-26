@@ -9,8 +9,8 @@ coords = file[1].chomp.split(" ")
 begin
 coordinate = RoverCoordinates.new(coords[0].to_i, coords[1].to_i, Zone.new(max_x, max_y))	
 rescue MarsRoverError::Boundary => e
-	puts e.message  
-	exit
+  puts e.message  
+  exit
 end
 
 

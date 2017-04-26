@@ -2,7 +2,7 @@ require File.expand_path('../../lib/cardinal_directions', __FILE__)
 
 describe CardinalDirections::North do
   
-   describe ".turn_left" do
+  describe ".turn_left" do
     it "returns an instance of CardinalDirections::West" do
       expect(subject.left).to be_an_instance_of(CardinalDirections::West)
     end
