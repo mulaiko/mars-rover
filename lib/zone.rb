@@ -1,7 +1,7 @@
 require_relative 'mars_rover_error'
 
 class Zone
-  attr_accessor :max_x_coordinate, :max_y_coordinate
+ 
 
   def initialize(max_x_coordinate, max_y_coordinate)		
     @max_x_coordinate = max_x_coordinate  
@@ -15,4 +15,7 @@ class Zone
     raise MarsRoverError::Boundary unless y_coordinate >= 0
     true 	 
   end
+
+  private
+  attr_accessor :max_x_coordinate, :max_y_coordinate
 end
