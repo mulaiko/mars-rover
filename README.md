@@ -32,18 +32,18 @@ commands etc.
 
 Sample input/output:
 
-Imput:
-8 8 
-8 8 W
-MMLMRMLMMMMMMRMMMMM
+Imput:<br />
+8 8 <br />
+8 8 W<br />
+MMLMRMLMMMMMMRMMMMM<br />
 
-Output: 
- 0 1 W
+Output: <br />
+ 0 1 W<br />
 
-Input:
- 8 8
- 0 1 E
- MMLMRMMMML
+Input:<br />
+ 8 8<br />
+ 0 1 E<br />
+ MMLMRMMMML<br />
 
-Output: 
- 6 2 N
+Output: <br />
+ 6 2 N<br />
